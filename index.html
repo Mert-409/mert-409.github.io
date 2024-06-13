@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Bilgi Yarışması</title>
+        <meta name="description" content="Bilgi Yarışması, tek başınıza veya arkadaşlarınızla sorular çözüp puan kazanabileceğiniz ve diğerleriyle yarışabileceğiniz bir soru-cevap oyunudur.">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png" type="image/png">
+    </head>
+    <body>
+        <div class="uygulama">
+            <h1>Bilgi Yarışması</h1>
+            <h3>Mert409</h3>
+            <div id="baslangic-ekrani">
+                <button id="oyna-btn" class="oyna-buton">OYNA</button>
+                <button id="lt-btn" class="liderlik-tablosu-buton">LİDERLİK TABLOSU</button>
+                <h5>Bilgi Yarışması, tek başınıza veya arkadaşlarınızla sorular çözüp puan kazanabileceğiniz ve diğerleriyle yarışabileceğiniz bir soru-cevap oyunudur.</h5>
+            </div>
+            <div id="oyun-ekrani" class="oyun">
+                <div id="bilgi-alani">
+                    <span id="soru-sirasi">Soru: 1</span>
+                    <span id="puan">Puan: 0</span>
+                    <span id="sure">Süre: 60</span>
+                </div>
+                <h2 id="soru">Burada soru yazacak</h2>
+                <div id="cevapbutonlari">
+                    <button class="btn">Cevap1</button>
+                    <button class="btn">Cevap2</button>
+                    <button class="btn">Cevap3</button>
+                    <button class="btn">Cevap4</button>
+                </div>
+            </div>
+            <div id="sonuc-ekrani" class="oyun">
+                <h2>Oyun Bitti!</h2>
+                <p>Toplam Puanınız: <span id="toplam-puan"></span></p>
+                <button id="tekrar-oyna-btn" class="btn">Tekrar Oyna</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

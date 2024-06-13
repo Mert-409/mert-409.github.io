@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+.uygulama {
+    background: #0072ff;
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.uygulama h1 {
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+.uygulama h3{
+    color: #ffffff;
+    text-align: end;
+    text-align: center;
+}
+.uygulama h5{
+    .uygulama h3{
+        color: #ffffff;
+        text-align: center;
+    }
+}
+
+.oyun h2 {
+    color: #ffffff;
+}
+.oyun h3 {
+    color: #ffffff;
+    text-align: end;
+    text-align: center;
+}
+
+.oyun {
+    display: none;
+    padding: 20px 0;
+}
+
+#baslangic-ekrani, #sonuc-ekrani {
+    text-align: center;
+    color: #ffffff;
+}
+
+#bilgi-alani {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn {
+    background: #ffffff;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: deepskyblue;
+    color: #ffffff;
+}
+.btn.dogru {
+    background: lightgreen;
+    color: #ffffff;
+    transition: background 0.5s, color 0.5s;
+}
+
+.btn.yanlis {
+    background: red;
+    color: #ffffff;
+    transition: background 0.5s, color 0.5s;
+}
+.oyna-buton {
+    background: #ffd200;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.oyna-buton:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.liderlik-tablosu-buton {
+    background: #00ff38;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.liderlik-tablosu-buton:hover {
+    background: #ffffff;
+    color: #000000;
+}
